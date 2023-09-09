@@ -41,6 +41,6 @@ paytmParams['PAYTM_INDUSRTY_TYPE_ID']=process.env.PAYTM_INDUSRTY_TYPE_ID
 paytmParams['ORDER_ID']=uuid()
 paytmParams['CUST_ID']=process.env.PAYTM_CUST_ID
 paytmParams['TXN_AMOUNT']='100'
-paytmParams['CALL_BACK_URL']='http://localhost:700/callback'
+paytmParams['CALL_BACK_URL']='https://flipcartclone-0gqo.onrender.com/callback'
 paytmParams['EMAIL']='chakribontha9@gmail.com'
 paytmParams['MOBILE_NO']='1234567890'

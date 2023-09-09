@@ -46,7 +46,7 @@ export const paymentResponse = (req, res) => {
                 });
                 post_res.on('end', function() {
                     let result = JSON.parse(res);
-                    response.redirect('http://localhost:3000/');
+                    response.redirect('https://flipcartclone-0gqo.onrender.com');
                 });
             });
         });

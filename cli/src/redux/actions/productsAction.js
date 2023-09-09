@@ -1,6 +1,6 @@
 import axios from "axios";
 import * as actionTypes from "../constants/productconstants"
-const URL = "http://localhost:700"
+const URL = "https://flipcartclone-0gqo.onrender.com"
 export const getProducts=()=>async(dispatch)=>{
     try{
       const {data}= await axios.get(`${URL}/products`);
